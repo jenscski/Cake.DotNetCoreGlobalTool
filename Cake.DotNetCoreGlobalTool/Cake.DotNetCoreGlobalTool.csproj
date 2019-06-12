@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <Version>0.1.2</Version>
+    <Authors>Jens-Christian Skibakk</Authors>
+    <Company>Jens-Christian Skibakk</Company>
+    <PackageLicenseUrl>https://github.com/jenscski/Cake.DotNetCoreGlobalTool/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jenscski/Cake.DotNetCoreGlobalTool</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jenscski/Cake.DotNetCoreGlobalTool</RepositoryUrl>
+    <PackageTags>cake;addin</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <Description>Cake AddIn that extends Cake with support for managing .NET Core Global Tools</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cake.Core" Version="0.33.0" />
+  </ItemGroup>
+
+</Project>
